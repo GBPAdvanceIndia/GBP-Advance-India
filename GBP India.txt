@@ -1,0 +1,3318 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>GBP Advance India - Title Slide</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Inter:wght@300;400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #f0f0f0;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            background-color: #0D47A1; /* Deep Brand Blue */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+        }
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Custom Colors */
+        .text-accent { color: #FFD700; } /* Gold/Yellow accent */
+        .bg-accent { background-color: #FFD700; }
+        
+        /* Decorative Blur Circles (Simulating gradient feel without CSS gradients) */
+        .blur-circle-1 {
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 600px;
+            height: 600px;
+            background-color: rgba(255, 255, 255, 0.05);
+            border-radius: 50%;
+        }
+        .blur-circle-2 {
+            position: absolute;
+            bottom: 50px;
+            left: -50px;
+            width: 400px;
+            height: 400px;
+            background-color: rgba(26, 115, 232, 0.3); /* Lighter Blue */
+            border-radius: 50%;
+        }
+        
+        /* Pin Animation */
+        .floating-pin {
+            animation: float 3s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+            100% { transform: translateY(0px); }
+        }
+        
+        /* Skyline SVG Styling */
+        .skyline {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: auto;
+            opacity: 0.2;
+            z-index: 1;
+        }
+        
+        .content-wrapper {
+            z-index: 10;
+            text-align: center;
+            margin-bottom: 40px; /* Offset for skyline */
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Decorative Background Elements -->
+<div class="blur-circle-1"></div>
+<div class="blur-circle-2"></div>
+<!-- Content -->
+<div class="content-wrapper flex flex-col items-center">
+<!-- Icon -->
+<div class="mb-8 floating-pin relative">
+<i class="fas fa-map-marker-alt text-8xl text-accent filter drop-shadow-lg"></i>
+<!-- Shadow for pin -->
+<div class="absolute -bottom-4 left-1/2 transform -translate-x-1/2 w-12 h-3 bg-black opacity-20 rounded-full blur-sm"></div>
+</div>
+<!-- Main Title -->
+<div class="mb-2">
+<p class="font-poppins font-extrabold text-7xl text-white tracking-tight leading-tight">
+                    GBP Advance India
+                </p>
+</div>
+<!-- Subtitle -->
+<div class="mb-10 max-w-4xl px-4">
+<p class="font-inter text-2xl text-blue-100 font-light leading-relaxed">
+                    Helping Local Businesses Get More Customers from Google Maps
+                </p>
+</div>
+<!-- Tagline / Badge -->
+<div class="flex items-center space-x-4 bg-white bg-opacity-10 px-8 py-3 rounded-full border border-white border-opacity-20 backdrop-filter backdrop-blur-sm">
+<i class="fas fa-search-location text-accent text-xl"></i>
+<p class="font-poppins font-bold text-lg text-white uppercase tracking-widest">
+                    Be Found. Be Chosen. Grow.
+                </p>
+</div>
+</div>
+<!-- City Skyline Silhouette -->
+<svg class="skyline" fill="none" viewbox="0 0 1280 200" xmlns="http://www.w3.org/2000/svg">
+<path d="M0 200V150H40V120H70V160H100V100H140V180H160V80H200V160H230V130H270V200H0Z" fill="white"></path>
+<path d="M260 200V140H300V110H330V160H360V90H410V170H430V70H480V150H510V120H550V200H260Z" fill="white"></path>
+<path d="M540 200V160H580V130H610V170H640V110H690V180H710V90H760V160H790V140H830V200H540Z" fill="white"></path>
+<path d="M820 200V150H860V120H890V160H920V100H960V180H980V80H1020V160H1050V130H1090V200H820Z" fill="white"></path>
+<path d="M1080 200V140H1120V110H1150V160H1180V90H1230V170H1250V70H1280V200H1080Z" fill="white"></path>
+</svg>
+<!-- Optional: Grid overlay for technical feel -->
+<div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-image: radial-gradient(white 1px, transparent 1px); background-size: 40px 40px; opacity: 0.05; pointer-events: none;"></div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>The Problem - Your Customers Can't Find You</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f3f4f6;
+            font-family: 'Inter', sans-serif;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            background-color: #ffffff;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        
+        /* Custom Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+        .text-brand-dark { color: #0D47A1; }
+        .bg-brand-dark { background-color: #0D47A1; }
+        .text-alert { color: #EA4335; }
+        .bg-alert-light { background-color: #FCE8E6; }
+        
+        /* Phone Mockup Styling */
+        .phone-frame {
+            width: 300px;
+            height: 520px;
+            background-color: #fff;
+            border: 12px solid #2d3748;
+            border-radius: 40px;
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            overflow: hidden;
+            z-index: 10;
+        }
+        .phone-notch {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 120px;
+            height: 25px;
+            background-color: #2d3748;
+            border-bottom-left-radius: 12px;
+            border-bottom-right-radius: 12px;
+            z-index: 20;
+        }
+        
+        /* Map UI inside phone */
+        .map-ui {
+            width: 100%;
+            height: 100%;
+            background-color: #e2e8f0;
+            position: relative;
+            background-image: 
+                linear-gradient(#cbd5e0 2px, transparent 2px),
+                linear-gradient(90deg, #cbd5e0 2px, transparent 2px);
+            background-size: 40px 40px;
+        }
+        .search-bar {
+            position: absolute;
+            top: 40px;
+            left: 20px;
+            right: 20px;
+            height: 40px;
+            background: white;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            padding: 0 15px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            color: #718096;
+            font-size: 14px;
+        }
+        
+        .pin {
+            position: absolute;
+            font-size: 24px;
+            filter: drop-shadow(0 4px 3px rgba(0,0,0,0.3));
+        }
+        .pin-competitor { color: #EA4335; }
+        .pin-ghost { 
+            color: #A0AEC0; 
+            opacity: 0.5;
+            animation: pulse-ghost 2s infinite;
+        }
+        
+        @keyframes pulse-ghost {
+            0% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.3; }
+            100% { transform: scale(1); opacity: 0.5; }
+        }
+
+        /* Callout Bubble */
+        .callout-bubble {
+            position: absolute;
+            background: white;
+            padding: 10px 15px;
+            border-radius: 15px;
+            border-bottom-left-radius: 0;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            font-weight: 600;
+            color: #2d3748;
+            z-index: 20;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Top Header Area -->
+<div class="pt-12 px-16">
+<div class="flex items-center space-x-3 mb-2">
+<span class="bg-brand-blue text-white px-3 py-1 rounded text-sm font-bold tracking-wide uppercase">The Problem</span>
+</div>
+<h1 class="font-poppins font-bold text-5xl text-gray-900 leading-tight">
+            Your Customers <span class="text-brand-blue">Can't Find You</span> Online
+        </h1>
+<div class="w-24 h-1.5 bg-brand-blue mt-6"></div>
+</div>
+<!-- Main Content Split -->
+<div class="flex-1 flex px-16 pt-8 pb-4">
+<!-- Left Side: Visual Story -->
+<div class="w-5/12 relative flex items-center justify-center">
+<!-- Decorative circle behind phone -->
+<div class="absolute w-80 h-80 bg-blue-50 rounded-full -z-0 top-10 left-10"></div>
+<!-- Phone Mockup -->
+<div class="phone-frame transform -rotate-3 transition-transform hover:rotate-0 duration-500">
+<div class="phone-notch"></div>
+<div class="map-ui">
+<!-- Search Bar -->
+<div class="search-bar font-inter">
+<i class="fas fa-search mr-2"></i> Dentist near me
+                    </div>
+<!-- Pins -->
+<div class="pin pin-competitor" style="top: 150px; left: 80px;">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<div class="pin pin-competitor" style="top: 220px; left: 200px;">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<!-- Missing Business Representation -->
+<div class="pin pin-ghost" style="top: 280px; left: 100px;">
+<i class="fas fa-question-circle text-3xl"></i>
+</div>
+<!-- Overlay Text inside phone -->
+<div class="absolute bottom-16 left-4 right-4 bg-white bg-opacity-90 p-3 rounded-lg text-center shadow-lg">
+<p class="text-xs font-bold text-gray-500 uppercase mb-1">Results</p>
+<p class="text-sm font-bold text-red-500">Your Business: MISSING</p>
+</div>
+</div>
+</div>
+<!-- Floating Callout -->
+<div class="callout-bubble top-20 right-0 transform translate-x-4">
+<i class="fas fa-exclamation-triangle text-yellow-500 mr-2"></i> Where are you?
+            </div>
+</div>
+<!-- Right Side: Key Points -->
+<div class="w-7/12 pl-12 flex flex-col justify-center space-y-10">
+<!-- Point 1 -->
+<div class="flex items-start">
+<div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center mr-6">
+<i class="fas fa-search text-3xl text-brand-blue"></i>
+</div>
+<div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-2">Customers Search Daily</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed">
+                        Millions of people use Google Maps every day to find local businesses like yours.
+                    </p>
+</div>
+</div>
+<!-- Point 2 -->
+<div class="flex items-start">
+<div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-red-100 flex items-center justify-center mr-6">
+<i class="fas fa-eye-slash text-3xl text-alert"></i>
+</div>
+<div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-2">Your Business is Invisible</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed">
+                        Without optimization, your profile is hidden deep in search results where no one looks.
+                    </p>
+</div>
+</div>
+<!-- Point 3 -->
+<div class="flex items-start">
+<div class="flex-shrink-0 w-16 h-16 rounded-2xl bg-gray-100 flex items-center justify-center mr-6">
+<i class="fas fa-user-friends text-3xl text-gray-600"></i>
+</div>
+<div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-2">Competitors Win</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed">
+                        Customers choose the first businesses they see. Your competitors are getting all the calls.
+                    </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Footer Warning -->
+<div class="h-24 bg-brand-dark flex items-center justify-center px-8 relative overflow-hidden">
+<!-- Background Pattern -->
+<div class="absolute inset-0 opacity-10" style="background-image: radial-gradient(white 1px, transparent 1px); background-size: 20px 20px;"></div>
+<div class="flex items-center space-x-4 z-10">
+<i class="fas fa-info-circle text-yellow-400 text-2xl"></i>
+<p class="font-poppins font-medium text-xl text-white tracking-wide">
+                "If you're not visible on Google Maps, you're <span class="text-yellow-400 font-bold border-b-2 border-yellow-400">invisible</span> to customers."
+            </p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>How Customers Search</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: #ffffff;
+        font-family: 'Inter', sans-serif;
+        overflow: hidden;
+    }
+    .slide-container {
+        width: 1280px;
+        height: 720px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        background-color: #F8F9FA;
+        overflow: hidden;
+    }
+    .font-poppins { font-family: 'Poppins', sans-serif; }
+    .font-inter { font-family: 'Inter', sans-serif; }
+    
+    /* Colors */
+    .text-brand-blue { color: #1A73E8; }
+    .bg-brand-blue { background-color: #1A73E8; }
+    .bg-brand-dark { background-color: #0D47A1; }
+    
+    /* Phone Mockup */
+    .phone-mockup {
+        width: 320px;
+        height: 580px;
+        background: #fff;
+        border: 12px solid #202124;
+        border-radius: 40px;
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        overflow: hidden;
+        position: relative;
+        margin-left: 60px;
+        margin-bottom: -40px;
+    }
+    .phone-notch {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 120px;
+        height: 25px;
+        background: #202124;
+        border-bottom-left-radius: 12px;
+        border-bottom-right-radius: 12px;
+        z-index: 20;
+    }
+    
+    /* Search Pill Styling */
+    .search-pill {
+        display: inline-flex;
+        align-items: center;
+        background: white;
+        padding: 14px 24px;
+        border-radius: 50px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        border: 1px solid #E2E8F0;
+        margin: 10px;
+        transition: transform 0.3s ease;
+    }
+    .search-pill i {
+        margin-right: 12px;
+        color: #1A73E8;
+        font-size: 1.2rem;
+    }
+    .search-pill:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    }
+    
+    /* Map Elements */
+    .map-bg {
+        background-color: #E6E3DD;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .map-card {
+        background: white;
+        border-radius: 8px;
+        padding: 12px;
+        margin: 10px 15px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        display: flex;
+        align-items: center;
+    }
+    
+    /* Stat Card */
+    .stat-card {
+        background-color: #E8F0FE;
+        border-left: 8px solid #1A73E8;
+    }
+
+    /* Floating Animations */
+    @keyframes float-pill {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-8px); }
+    }
+    .pill-float-1 { animation: float-pill 4s ease-in-out infinite; }
+    .pill-float-2 { animation: float-pill 5s ease-in-out infinite 0.5s; }
+    .pill-float-3 { animation: float-pill 4.5s ease-in-out infinite 1s; }
+    
+    /* Decorative Background Shape */
+    .bg-shape {
+        position: absolute;
+        bottom: -100px;
+        left: -100px;
+        width: 600px;
+        height: 600px;
+        background-color: #E8F0FE;
+        border-radius: 50%;
+        z-index: 0;
+    }
+</style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Decorative Shape -->
+<div class="bg-shape"></div>
+<!-- Header Section -->
+<div class="relative z-10 pt-10 px-16 w-full">
+<div class="flex items-center space-x-3 mb-2">
+<span class="bg-blue-100 text-brand-blue px-3 py-1 rounded text-sm font-bold tracking-wide uppercase">Search Behavior</span>
+</div>
+<h1 class="font-poppins font-bold text-5xl text-gray-900 leading-tight">
+            This Is How People <span class="text-brand-blue">Find Businesses</span> Today
+        </h1>
+</div>
+<div class="flex flex-1 relative z-10 w-full mt-4">
+<!-- Left Column: Visual Mockup -->
+<div class="w-5/12 flex flex-col justify-end relative pl-10">
+<div class="phone-mockup">
+<div class="phone-notch"></div>
+<div class="map-bg pt-12 relative">
+<!-- Phone Header -->
+<div class="mx-4 mt-2 mb-4 bg-white rounded-lg shadow-sm p-3 flex items-center text-gray-500 text-sm border border-gray-200">
+<i class="fas fa-bars mr-3 text-gray-400"></i>
+<span class="flex-grow font-inter text-gray-700">Gym near me...</span>
+<i class="fas fa-microphone text-brand-blue"></i>
+<div class="ml-2 w-6 h-6 rounded-full bg-purple-500 text-white flex items-center justify-center text-xs">U</div>
+</div>
+<!-- Map Pins -->
+<div class="absolute top-1/4 left-1/3 text-red-500 text-3xl drop-shadow-md transform -translate-x-1/2 -translate-y-1/2">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<div class="absolute top-1/2 left-2/3 text-red-500 text-3xl drop-shadow-md transform -translate-x-1/2 -translate-y-1/2">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<!-- Business Listing Card inside Phone -->
+<div class="absolute bottom-4 w-full px-4 pb-4">
+<div class="bg-white rounded-lg shadow-lg p-3 flex items-start border border-gray-100">
+<div class="w-16 h-16 bg-gray-200 rounded mr-3 flex-shrink-0 flex items-center justify-center">
+<i class="fas fa-store text-gray-400 text-xl"></i>
+</div>
+<div class="flex-grow">
+<div class="h-4 w-3/4 bg-gray-800 rounded mb-2"></div>
+<div class="flex items-center mb-1">
+<span class="text-yellow-400 text-xs mr-1">★★★★☆</span>
+<div class="h-3 w-8 bg-gray-400 rounded"></div>
+</div>
+<div class="h-3 w-1/2 bg-gray-300 rounded"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Column: Content & Stats -->
+<div class="w-7/12 pr-16 pl-8 pt-4 flex flex-col justify-start">
+<!-- Stat Highlight Box -->
+<div class="stat-card p-6 rounded-r-xl mb-8 w-full shadow-sm">
+<div class="flex items-center">
+<div class="bg-white p-4 rounded-full shadow-sm mr-6">
+<i class="fab fa-google text-4xl text-brand-blue"></i>
+</div>
+<div>
+<p class="font-poppins font-extrabold text-5xl text-gray-800 mb-1">5 Billion+</p>
+<p class="font-inter text-gray-600 font-medium text-lg">Searches happen on Google every single day</p>
+</div>
+</div>
+</div>
+<!-- Search Pills Area -->
+<div class="mb-8">
+<p class="font-inter text-gray-500 mb-4 font-bold text-sm uppercase tracking-wider">Common Local Searches:</p>
+<div class="flex flex-wrap -m-2">
+<div class="search-pill pill-float-1">
+<i class="fas fa-cut"></i>
+<span class="font-poppins font-medium text-gray-800">Salon near me</span>
+</div>
+<div class="search-pill pill-float-2">
+<i class="fas fa-tooth"></i>
+<span class="font-poppins font-medium text-gray-800">Dentist near me</span>
+</div>
+<div class="search-pill pill-float-3">
+<i class="fas fa-utensils"></i>
+<span class="font-poppins font-medium text-gray-800">Restaurant near me</span>
+</div>
+<div class="search-pill pill-float-2">
+<i class="fas fa-dumbbell"></i>
+<span class="font-poppins font-medium text-gray-800">Gym near me</span>
+</div>
+<div class="search-pill pill-float-1">
+<i class="fas fa-hotel"></i>
+<span class="font-poppins font-medium text-gray-800">Hotel near me</span>
+</div>
+<div class="search-pill pill-float-3">
+<i class="fas fa-chalkboard-teacher"></i>
+<span class="font-poppins font-medium text-gray-800">Coaching near me</span>
+</div>
+</div>
+</div>
+<!-- Bottom Question Box -->
+<div class="bg-gray-800 rounded-xl p-6 flex items-center shadow-lg transform hover:scale-105 transition-transform duration-300 cursor-default border-l-4 border-yellow-400">
+<div class="bg-yellow-400 rounded-full w-12 h-12 flex items-center justify-center mr-5 flex-shrink-0 shadow-lg">
+<i class="fas fa-question text-gray-900 text-2xl font-bold"></i>
+</div>
+<div>
+<p class="font-inter text-gray-400 text-sm mb-1 font-medium">Customers are searching right now...</p>
+<h3 class="font-poppins font-bold text-white text-xl tracking-tight">
+                        Is <span class="text-yellow-400 underline decoration-2 underline-offset-4">YOUR</span> business showing up in these results?
+                    </h3>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>What is Google Business Profile</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+        
+        /* Typography */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Brand Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+        .bg-brand-dark { background-color: #0D47A1; }
+        .text-brand-dark { color: #0D47A1; }
+        .bg-accent-yellow { background-color: #FFD700; }
+        
+        /* Mock Google Card Styles */
+        .google-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+            border: 1px solid #dfe1e5;
+            width: 320px;
+            overflow: hidden;
+            position: relative;
+        }
+        .google-card-header {
+            height: 120px;
+            background-color: #e8f0fe;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .google-card-icon {
+            font-size: 40px;
+            color: #1A73E8;
+            opacity: 0.8;
+        }
+        .action-btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .action-circle {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid #1A73E8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #1A73E8;
+            margin-bottom: 4px;
+        }
+        
+        /* Feature Boxes */
+        .feature-box {
+            background: #fff;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border-left: 6px solid #1A73E8;
+            transition: transform 0.3s ease;
+            height: 100%;
+        }
+        .feature-box:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Bottom Highlight */
+        .highlight-banner {
+            background-color: #E8F0FE;
+            border: 2px dashed #1A73E8;
+            border-radius: 12px;
+        }
+        
+        /* Decorative Elements */
+        .dot-pattern {
+            background-image: radial-gradient(#cbd5e0 1px, transparent 1px);
+            background-size: 20px 20px;
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Pattern -->
+<div class="absolute inset-0 dot-pattern pointer-events-none"></div>
+<!-- Header -->
+<div class="px-16 pt-12 pb-6 relative z-10">
+<div class="flex items-center space-x-3 mb-2">
+<span class="bg-blue-100 text-brand-blue px-3 py-1 rounded text-sm font-bold tracking-wide uppercase">Overview</span>
+</div>
+<h1 class="font-poppins font-bold text-5xl text-gray-900 leading-tight">
+                What is <span class="text-brand-blue">Google Business Profile?</span>
+</h1>
+<div class="w-24 h-1.5 bg-brand-blue mt-6"></div>
+</div>
+<!-- Main Content Layout -->
+<div class="flex flex-1 px-16 pb-8 space-x-16 relative z-10 items-center">
+<!-- Left Side: Visual Mockup -->
+<div class="w-1/3 flex justify-center">
+<div class="google-card transform rotate-2 hover:rotate-0 transition-transform duration-500">
+<!-- Card Header Image Placeholder -->
+<div class="google-card-header">
+<i class="fas fa-store google-card-icon"></i>
+</div>
+<!-- Card Body -->
+<div class="p-5">
+<p class="font-poppins font-bold text-xl text-gray-900 mb-1">City Dental Clinic</p>
+<div class="flex items-center text-sm mb-1">
+<p class="text-orange-400 mr-1">4.8</p>
+<div class="flex text-orange-400 text-xs mr-2">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+</div>
+<p class="text-gray-500">(128)</p>
+</div>
+<p class="text-gray-500 text-sm mb-4">Dental clinic · Mumbai, Maharashtra</p>
+<!-- Action Buttons Row -->
+<div class="flex justify-between border-t border-b border-gray-100 py-3 mb-3">
+<div class="action-btn">
+<div class="action-circle"><i class="fas fa-phone-alt"></i></div>
+<p class="text-xs text-brand-blue font-medium">Call</p>
+</div>
+<div class="action-btn">
+<div class="action-circle"><i class="fas fa-directions"></i></div>
+<p class="text-xs text-brand-blue font-medium">Directions</p>
+</div>
+<div class="action-btn">
+<div class="action-circle"><i class="fas fa-globe"></i></div>
+<p class="text-xs text-brand-blue font-medium">Website</p>
+</div>
+<div class="action-btn">
+<div class="action-circle"><i class="fas fa-share-alt"></i></div>
+<p class="text-xs text-brand-blue font-medium">Share</p>
+</div>
+</div>
+<!-- Info Rows -->
+<div class="space-y-3">
+<div class="flex items-start text-sm text-gray-600">
+<i class="fas fa-map-marker-alt w-5 mt-1 text-gray-400"></i>
+<p>123, Main Road, Andheri West, Mumbai</p>
+</div>
+<div class="flex items-start text-sm text-gray-600">
+<i class="far fa-clock w-5 mt-1 text-gray-400"></i>
+<p><span class="text-green-600 font-medium">Open</span> · Closes 8PM</p>
+</div>
+<div class="flex items-start text-sm text-gray-600">
+<i class="fas fa-phone w-5 mt-1 text-gray-400"></i>
+<p>098765 43210</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Side: Explanation Cards -->
+<div class="w-2/3 flex flex-col justify-between h-full py-4">
+<!-- Feature List -->
+<div class="space-y-6">
+<!-- Feature 1 -->
+<div class="feature-box flex items-center">
+<div class="w-16 h-16 rounded-full bg-blue-50 flex items-center justify-center mr-6 flex-shrink-0">
+<i class="fas fa-map-marked-alt text-3xl text-brand-blue"></i>
+</div>
+<div>
+<p class="font-poppins font-bold text-xl text-gray-800 mb-2">A FREE Listing on Google Maps</p>
+<p class="font-inter text-gray-600">Your official business identity on Google. It costs nothing to create, but acts as your primary digital asset.</p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="feature-box flex items-center">
+<div class="w-16 h-16 rounded-full bg-yellow-50 flex items-center justify-center mr-6 flex-shrink-0">
+<i class="fas fa-info-circle text-3xl text-yellow-500"></i>
+</div>
+<div>
+<p class="font-poppins font-bold text-xl text-gray-800 mb-2">Shows Critical Information</p>
+<p class="font-inter text-gray-600">Displays your Name, Address, Phone Number, Photos, and Reviews so customers can trust you instantly.</p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="feature-box flex items-center">
+<div class="w-16 h-16 rounded-full bg-green-50 flex items-center justify-center mr-6 flex-shrink-0">
+<i class="fas fa-mobile-alt text-3xl text-green-500"></i>
+</div>
+<div>
+<p class="font-poppins font-bold text-xl text-gray-800 mb-2">Appears in Local Searches</p>
+<p class="font-inter text-gray-600">When someone nearby searches for "Dentist" or "Salon", your optimized profile shows up right on their phone.</p>
+</div>
+</div>
+</div>
+<!-- Bottom Highlight -->
+<div class="highlight-banner mt-8 p-6 flex items-center justify-center">
+<i class="fas fa-store-alt text-3xl text-brand-blue mr-4"></i>
+<p class="font-poppins font-bold text-2xl text-gray-800">
+                        Think of it as your <span class="text-brand-blue bg-white px-2 py-1 rounded shadow-sm">FREE shop window</span> on Google!
+                    </p>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Why Many Businesses Don't Rank</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+        
+        /* Typography */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Brand Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+        .text-alert-red { color: #D93025; }
+        .bg-alert-red-light { background-color: #FCE8E6; }
+        .border-alert-red { border-color: #D93025; }
+        
+        /* Card Styles */
+        .issue-card {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border: 1px solid #f1f3f4;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+        
+        .issue-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            border-color: #fad2cf;
+        }
+
+        .issue-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 6px;
+            height: 100%;
+            background-color: #D93025; /* Red strip */
+        }
+        
+        /* Icons */
+        .icon-wrapper {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            background-color: #FCE8E6;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            position: relative;
+        }
+        
+        .x-badge {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            width: 24px;
+            height: 24px;
+            background-color: #D93025;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            border: 2px solid white;
+        }
+
+        /* Bottom Alert Bar */
+        .alert-bar {
+            background-color: #3C4043;
+            color: white;
+        }
+        
+        /* Background Pattern */
+        .grid-pattern {
+            background-image: 
+                linear-gradient(#f1f3f4 1px, transparent 1px),
+                linear-gradient(90deg, #f1f3f4 1px, transparent 1px);
+            background-size: 40px 40px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Pattern -->
+<div class="grid-pattern"></div>
+<!-- Header -->
+<div class="px-16 pt-12 pb-4 relative z-10">
+<div class="flex items-center space-x-3 mb-2">
+<span class="bg-red-100 text-alert-red px-3 py-1 rounded text-sm font-bold tracking-wide uppercase">Common Mistakes</span>
+</div>
+<h1 class="font-poppins font-bold text-5xl text-gray-900 leading-tight">
+                Why Your Business <span class="text-alert-red">May Not Appear</span> on Maps
+            </h1>
+<div class="w-24 h-1.5 bg-alert-red-light mt-6 rounded-full"></div>
+</div>
+<!-- Main Content: 2x2 Grid -->
+<div class="flex-1 px-16 py-6 relative z-10">
+<div class="grid grid-cols-2 gap-8 h-full pb-4">
+<!-- Issue 1 -->
+<div class="issue-card">
+<div class="icon-wrapper">
+<i class="fas fa-file-invoice text-3xl text-alert-red"></i>
+<div class="x-badge"><i class="fas fa-times"></i></div>
+</div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-3">Incomplete Profile</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed flex-grow">
+                        Missing critical details like precise address, operating hours, website link, or business photos. Google penalizes incomplete listings.
+                    </p>
+<div class="mt-4 pt-4 border-t border-gray-100">
+<p class="text-sm font-semibold text-gray-500 uppercase tracking-wide">Consequence:</p>
+<p class="text-sm text-alert-red font-medium">Lower Ranking &amp; Trust</p>
+</div>
+</div>
+<!-- Issue 2 -->
+<div class="issue-card">
+<div class="icon-wrapper">
+<i class="fas fa-star-half-alt text-3xl text-alert-red"></i>
+<div class="x-badge"><i class="fas fa-times"></i></div>
+</div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-3">Few or No Reviews</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed flex-grow">
+                        Google favors businesses that customers trust. A profile with zero reviews or a low rating is often ignored by the algorithm.
+                    </p>
+<div class="mt-4 pt-4 border-t border-gray-100">
+<p class="text-sm font-semibold text-gray-500 uppercase tracking-wide">Consequence:</p>
+<p class="text-sm text-alert-red font-medium">Customers choose competitors</p>
+</div>
+</div>
+<!-- Issue 3 -->
+<div class="issue-card">
+<div class="icon-wrapper">
+<i class="fas fa-search-minus text-3xl text-alert-red"></i>
+<div class="x-badge"><i class="fas fa-times"></i></div>
+</div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-3">Never Optimized</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed flex-grow">
+                        The profile was created once and forgotten. Without the right keywords and categories, Google doesn't know what you sell.
+                    </p>
+<div class="mt-4 pt-4 border-t border-gray-100">
+<p class="text-sm font-semibold text-gray-500 uppercase tracking-wide">Consequence:</p>
+<p class="text-sm text-alert-red font-medium">Invisible for key searches</p>
+</div>
+</div>
+<!-- Issue 4 -->
+<div class="issue-card">
+<div class="icon-wrapper">
+<i class="fas fa-user-clock text-3xl text-alert-red"></i>
+<div class="x-badge"><i class="fas fa-times"></i></div>
+</div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-3">Inactive Listing</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed flex-grow">
+                        No new photos, no posts, and no responses to reviews. Google treats inactive profiles as potentially closed or irrelevant.
+                    </p>
+<div class="mt-4 pt-4 border-t border-gray-100">
+<p class="text-sm font-semibold text-gray-500 uppercase tracking-wide">Consequence:</p>
+<p class="text-sm text-alert-red font-medium">Ranking drops over time</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Warning Banner -->
+<div class="alert-bar py-4 px-16 relative z-20 flex items-center justify-center">
+<div class="flex items-center space-x-4">
+<i class="fas fa-exclamation-triangle text-yellow-400 text-2xl animate-pulse"></i>
+<p class="font-poppins font-medium text-xl text-white tracking-wide">
+                    These simple mistakes cost businesses <span class="text-yellow-400 font-bold">thousands of potential customers</span> every month.
+                </p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Our Services - GBP Advance India</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #F8FAFC;
+            overflow: hidden;
+        }
+        
+        /* Fonts */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Brand Colors */
+        .bg-brand-blue { background-color: #1A73E8; }
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-dark { background-color: #0D47A1; }
+        
+        /* Card Styles */
+        .service-card {
+            width: 340px;
+            background: white;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        .card-header {
+            background-color: #1A73E8;
+            padding: 16px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            height: 60px;
+        }
+
+        .card-body {
+            padding: 30px 24px 24px 24px;
+            text-align: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Icon Container styling - overlaps header and body */
+        .icon-container {
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            top: 25px; /* Positioned to overlap */
+            left: 50%;
+            transform: translateX(-50%);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            border: 4px solid #F8FAFC; /* Matches slide background to create "cutout" look */
+            z-index: 10;
+        }
+
+        .icon-inner {
+            font-size: 28px;
+            color: #1A73E8;
+        }
+
+        /* Layout Grid */
+        .services-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 24px;
+            padding: 0 40px;
+            margin-top: 20px;
+        }
+
+        /* Decorative Background */
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(#E2E8F0 1px, transparent 1px);
+            background-size: 32px 32px;
+            z-index: 0;
+        }
+        
+        .accent-circle {
+            position: absolute;
+            width: 400px;
+            height: 400px;
+            border-radius: 50%;
+            background-color: rgba(26, 115, 232, 0.03);
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-pattern"></div>
+<div class="accent-circle" style="top: -100px; right: -100px;"></div>
+<div class="accent-circle" style="bottom: -100px; left: -100px;"></div>
+<!-- Header Section -->
+<div class="relative z-10 pt-10 px-16 text-center mb-6">
+<div class="inline-block mb-3">
+<span class="bg-blue-100 text-brand-blue px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase">
+                    Our Services
+                </span>
+</div>
+<h1 class="font-poppins font-bold text-4xl text-gray-900 leading-tight">
+                What We Do For <span class="text-brand-blue">Your Business</span>
+</h1>
+<p class="font-inter text-gray-500 mt-3 text-lg max-w-2xl mx-auto">
+                Comprehensive solutions designed to dominate local search results.
+            </p>
+</div>
+<!-- Services Grid -->
+<div class="relative z-10 flex-1 flex flex-col justify-center pb-12">
+<!-- Row 1: 3 Cards -->
+<div class="services-wrapper mb-8">
+<!-- Service 1 -->
+<div class="service-card">
+<div class="card-header">
+<!-- Header Background Only -->
+</div>
+<div class="icon-container">
+<i class="fas fa-store icon-inner"></i>
+</div>
+<div class="card-body">
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-2 mt-2">GBP Setup</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed">
+                            We create, claim, and verify your professional business listing to establish your digital presence.
+                        </p>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="service-card">
+<div class="card-header"></div>
+<div class="icon-container">
+<i class="fas fa-magic icon-inner"></i>
+</div>
+<div class="card-body">
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-2 mt-2">Profile Optimization</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed">
+                            We enhance your profile with keywords, accurate data, and photos to maximize appeal.
+                        </p>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="service-card">
+<div class="card-header"></div>
+<div class="icon-container">
+<i class="fas fa-map-marked-alt icon-inner"></i>
+</div>
+<div class="card-body">
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-2 mt-2">Google Maps Ranking</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed">
+                            Proven strategies to push your business into the top 3 "Map Pack" positions.
+                        </p>
+</div>
+</div>
+</div>
+<!-- Row 2: 2 Cards (Centered) -->
+<div class="services-wrapper">
+<!-- Service 4 -->
+<div class="service-card">
+<div class="card-header"></div>
+<div class="icon-container">
+<i class="fas fa-star icon-inner text-yellow-500"></i> <!-- Yellow star for reviews -->
+</div>
+<div class="card-body">
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-2 mt-2">Review Growth</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed">
+                            Automated systems to generate more 5-star reviews and build unshakeable trust.
+                        </p>
+</div>
+</div>
+<!-- Service 5 -->
+<div class="service-card">
+<div class="card-header"></div>
+<div class="icon-container">
+<i class="fas fa-search-location icon-inner"></i>
+</div>
+<div class="card-body">
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-2 mt-2">Local SEO</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed">
+                            Holistic optimization to ensure you are found by customers anywhere in your city.
+                        </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Our Simple 4-Step Process</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+        
+        /* Fonts */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Brand Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+        .bg-brand-light { background-color: #E8F0FE; }
+        .border-brand-blue { border-color: #1A73E8; }
+
+        /* Process Steps */
+        .process-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            position: relative;
+            margin-top: 60px;
+            padding: 0 40px;
+            z-index: 10;
+        }
+
+        .step-card {
+            width: 240px;
+            text-align: center;
+            position: relative;
+            background: white;
+            z-index: 20;
+            transition: transform 0.3s ease;
+        }
+
+        .step-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .step-icon-wrapper {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            background-color: #ffffff;
+            border: 4px solid #E8F0FE;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px auto;
+            position: relative;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+        }
+
+        .step-number {
+            position: absolute;
+            top: -5px;
+            right: -5px;
+            width: 32px;
+            height: 32px;
+            background-color: #1A73E8;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 14px;
+            border: 3px solid white;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .step-icon {
+            font-size: 36px;
+            color: #1A73E8;
+        }
+
+        /* Connecting Line */
+        .connecting-line {
+            position: absolute;
+            top: 50px; /* Center of the icon (100px / 2) */
+            left: 140px; /* Start after first item center approx */
+            right: 140px; /* End before last item center approx */
+            height: 4px;
+            background-color: #E8F0FE;
+            z-index: 0;
+        }
+
+        /* Animated Progress Line (Static for PDF export, but visual cue) */
+        .progress-line {
+            position: absolute;
+            top: 50px;
+            left: 140px;
+            width: 0; /* Animated to fill */
+            height: 4px;
+            background-color: #1A73E8;
+            z-index: 1;
+            /* Simulating full progress for static view */
+            width: 80%; 
+            opacity: 0.2;
+        }
+
+        /* Arrows between steps */
+        .arrow-connector {
+            position: absolute;
+            top: 42px;
+            color: #1A73E8;
+            font-size: 20px;
+            opacity: 0.5;
+        }
+
+        /* Background shapes */
+        .bg-blob {
+            position: absolute;
+            border-radius: 50%;
+            filter: blur(40px);
+            opacity: 0.4;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-blob" style="top: -100px; right: -100px; width: 400px; height: 400px; background-color: #E8F0FE;"></div>
+<div class="bg-blob" style="bottom: -100px; left: -100px; width: 500px; height: 500px; background-color: #F8FAFC;"></div>
+<!-- Header -->
+<div class="pt-12 px-16 relative z-10 text-center">
+<div class="inline-block mb-3">
+<span class="bg-blue-100 text-brand-blue px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase">
+                How It Works
+            </span>
+</div>
+<h1 class="font-poppins font-bold text-4xl text-gray-900 leading-tight mb-4">
+            Our Simple <span class="text-brand-blue">4-Step Process</span>
+</h1>
+<p class="font-inter text-gray-500 text-lg max-w-3xl mx-auto">
+            We handle everything from the initial analysis to continuous growth management, ensuring your business stays visible.
+        </p>
+</div>
+<!-- Process Visualization -->
+<div class="flex-1 flex flex-col justify-center relative px-16 pb-16">
+<!-- Connecting Lines -->
+<div class="connecting-line"></div>
+<!-- Arrow Icons positioned along the line -->
+<i class="fas fa-chevron-right arrow-connector" style="left: 26%;"></i>
+<i class="fas fa-chevron-right arrow-connector" style="left: 53%;"></i>
+<i class="fas fa-chevron-right arrow-connector" style="left: 79%;"></i>
+<!-- Steps Container -->
+<div class="process-container w-full">
+<!-- Step 1 -->
+<div class="step-card">
+<div class="step-icon-wrapper">
+<div class="step-number">1</div>
+<i class="fas fa-search step-icon"></i>
+</div>
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-3">AUDIT</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed px-2">
+                    We analyze your current Google listing to identify missing information and ranking opportunities.
+                </p>
+</div>
+<!-- Step 2 -->
+<div class="step-card">
+<div class="step-icon-wrapper">
+<div class="step-number">2</div>
+<i class="fas fa-cogs step-icon"></i>
+</div>
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-3">OPTIMIZE</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed px-2">
+                    We complete your profile with accurate data, keywords, and high-quality photos.
+                </p>
+</div>
+<!-- Step 3 -->
+<div class="step-card">
+<div class="step-icon-wrapper">
+<div class="step-number">3</div>
+<i class="fas fa-chart-line step-icon"></i>
+</div>
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-3">RANK</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed px-2">
+                    We improve local ranking signals to push your business into the top Google Maps results.
+                </p>
+</div>
+<!-- Step 4 -->
+<div class="step-card">
+<div class="step-icon-wrapper">
+<div class="step-number">4</div>
+<i class="fas fa-rocket step-icon text-green-500"></i> <!-- Highlighted Grow icon -->
+</div>
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-3">GROW</h3>
+<p class="font-inter text-gray-600 text-sm leading-relaxed px-2">
+                    You get more calls, store visits, and customers while we maintain your position.
+                </p>
+</div>
+</div>
+</div>
+<!-- Bottom Callout -->
+<div class="text-center pb-12 relative z-10">
+<p class="font-inter font-medium text-gray-400 text-sm bg-gray-50 inline-block px-4 py-2 rounded-lg border border-gray-100">
+<i class="fas fa-sync-alt mr-2 text-brand-blue"></i> Results typically seen within the first 30 days
+        </p>
+</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Real Results After Optimization</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #F8FAFC;
+            overflow: hidden;
+        }
+        
+        /* Fonts */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+        .text-google-red { color: #D93025; }
+        .bg-google-red-light { background-color: #FCE8E6; }
+        .text-google-green { color: #1E8E3E; }
+        .bg-google-green-light { background-color: #E6F4EA; }
+        .bg-google-green { background-color: #1E8E3E; }
+        
+        /* Card Styles */
+        .compare-card {
+            flex: 1;
+            height: 420px;
+            background: white;
+            border-radius: 20px;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            transition: transform 0.3s ease;
+        }
+
+        .card-header {
+            padding: 24px;
+            border-radius: 20px 20px 0 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .card-body {
+            padding: 30px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        /* Before Card Specifics */
+        .card-before {
+            border: 1px solid #e5e7eb;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            background-color: #F8F9FA;
+        }
+        .card-before .card-header {
+            background-color: #E2E8F0;
+            border-bottom: 1px solid #d1d5db;
+        }
+
+        /* After Card Specifics */
+        .card-after {
+            border: 2px solid #34A853;
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            transform: scale(1.02);
+            z-index: 10;
+        }
+        .card-after .card-header {
+            background-color: #E6F4EA;
+            border-bottom: 1px solid #34A853;
+        }
+
+        /* Metric Rows */
+        .metric-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 12px 0;
+            border-bottom: 1px dashed #e5e7eb;
+        }
+        .metric-row:last-child {
+            border-bottom: none;
+        }
+
+        /* Icons */
+        .status-icon {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Central Arrow */
+        .arrow-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 80px;
+            z-index: 20;
+        }
+        .arrow-circle {
+            width: 60px;
+            height: 60px;
+            background-color: #1A73E8;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            box-shadow: 0 4px 10px rgba(26, 115, 232, 0.3);
+        }
+
+        /* Background Pattern */
+        .bg-pattern {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: radial-gradient(#cbd5e1 1px, transparent 1px);
+            background-size: 24px 24px;
+            opacity: 0.4;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background -->
+<div class="bg-pattern"></div>
+<!-- Header -->
+<div class="relative z-10 pt-10 px-16 text-center">
+<div class="inline-block mb-3">
+<p class="bg-blue-100 text-brand-blue px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase">
+                    Case Study
+                </p>
+</div>
+<h1 class="font-poppins font-bold text-4xl text-gray-900 leading-tight mb-2">
+                Real Results <span class="text-brand-blue">After Optimization</span>
+</h1>
+<p class="font-inter text-gray-500 text-lg max-w-2xl mx-auto">
+                See the difference a fully optimized Google Business Profile makes for local visibility.
+            </p>
+</div>
+<!-- Main Content: Comparison -->
+<div class="flex-1 px-24 py-8 relative z-10 flex items-center justify-center">
+<!-- BEFORE Card -->
+<div class="compare-card card-before">
+<div class="card-header">
+<div>
+<p class="font-poppins font-bold text-xl text-gray-600">BEFORE</p>
+<p class="text-xs text-gray-500 font-inter">Unoptimized Listing</p>
+</div>
+<div class="status-icon bg-gray-300 text-gray-600">
+<i class="fas fa-history"></i>
+</div>
+</div>
+<div class="card-body">
+<!-- Metric 1 -->
+<div class="metric-row">
+<div class="flex items-center">
+<i class="fas fa-map-marker-alt w-8 text-gray-400"></i>
+<p class="font-inter text-gray-600 font-medium">Map Ranking</p>
+</div>
+<p class="font-poppins font-bold text-google-red bg-google-red-light px-3 py-1 rounded">Not Visible</p>
+</div>
+<!-- Metric 2 -->
+<div class="metric-row">
+<div class="flex items-center">
+<i class="fas fa-phone-alt w-8 text-gray-400"></i>
+<p class="font-inter text-gray-600 font-medium">Monthly Calls</p>
+</div>
+<p class="font-inter font-semibold text-gray-500">2 – 3</p>
+</div>
+<!-- Metric 3 -->
+<div class="metric-row">
+<div class="flex items-center">
+<i class="fas fa-eye w-8 text-gray-400"></i>
+<p class="font-inter text-gray-600 font-medium">Profile Views</p>
+</div>
+<p class="font-inter font-semibold text-gray-500">Low (&lt; 50)</p>
+</div>
+<!-- Metric 4 -->
+<div class="metric-row">
+<div class="flex items-center">
+<i class="fas fa-star w-8 text-gray-400"></i>
+<p class="font-inter text-gray-600 font-medium">Reviews</p>
+</div>
+<div class="flex items-center">
+<p class="text-sm text-gray-400 mr-2">(No Data)</p>
+<i class="far fa-star text-gray-300"></i>
+</div>
+</div>
+</div>
+</div>
+<!-- Central Arrow -->
+<div class="arrow-container mx-4">
+<div class="arrow-circle">
+<i class="fas fa-arrow-right"></i>
+</div>
+</div>
+<!-- AFTER Card -->
+<div class="compare-card card-after">
+<div class="card-header">
+<div>
+<p class="font-poppins font-bold text-xl text-google-green">AFTER</p>
+<p class="text-xs text-green-700 font-inter">Fully Optimized &amp; Ranked</p>
+</div>
+<div class="status-icon bg-google-green text-white shadow-md">
+<i class="fas fa-check"></i>
+</div>
+</div>
+<div class="card-body">
+<!-- Metric 1 -->
+<div class="metric-row">
+<div class="flex items-center">
+<i class="fas fa-map-marker-alt w-8 text-brand-blue"></i>
+<p class="font-inter text-gray-800 font-bold">Map Ranking</p>
+</div>
+<div class="flex items-center">
+<i class="fas fa-trophy text-yellow-500 mr-2 text-sm"></i>
+<p class="font-poppins font-bold text-white bg-google-green px-3 py-1 rounded shadow-sm">Top 3 Pack</p>
+</div>
+</div>
+<!-- Metric 2 -->
+<div class="metric-row">
+<div class="flex items-center">
+<i class="fas fa-phone-alt w-8 text-brand-blue"></i>
+<p class="font-inter text-gray-800 font-bold">Monthly Calls</p>
+</div>
+<div class="flex items-center">
+<i class="fas fa-arrow-up text-google-green mr-2 animate-bounce"></i>
+<p class="font-poppins font-bold text-gray-800 text-xl">40 – 60</p>
+</div>
+</div>
+<!-- Metric 3 -->
+<div class="metric-row">
+<div class="flex items-center">
+<i class="fas fa-eye w-8 text-brand-blue"></i>
+<p class="font-inter text-gray-800 font-bold">Profile Views</p>
+</div>
+<div class="flex items-center">
+<p class="bg-blue-100 text-brand-blue text-xs font-bold px-2 py-0.5 rounded mr-2">5x</p>
+<p class="font-poppins font-bold text-gray-800 text-xl">500+</p>
+</div>
+</div>
+<!-- Metric 4 -->
+<div class="metric-row">
+<div class="flex items-center">
+<i class="fas fa-star w-8 text-brand-blue"></i>
+<p class="font-inter text-gray-800 font-bold">Reviews</p>
+</div>
+<div class="flex flex-col items-end">
+<div class="flex text-yellow-400 text-sm mb-0.5">
+<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+</div>
+<p class="text-xs text-gray-500 font-semibold">20+ Positive Reviews</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Footer / Disclaimer -->
+<div class="text-center pb-6 relative z-10">
+<p class="font-inter text-xs text-gray-400 italic">
+                * Results may vary based on business type, location, and competition. These figures represent typical outcomes for our active clients.
+            </p>
+</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>What You Get After Optimization</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #F8FAFC;
+            overflow: hidden;
+        }
+        
+        /* Typography */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+        
+        /* Card Styles */
+        .benefit-card {
+            background: white;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            transition: all 0.3s ease;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: 1px solid #f1f5f9;
+            position: relative;
+            overflow: hidden;
+            z-index: 10;
+        }
+        
+        .benefit-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border-color: #BFDBFE;
+        }
+
+        /* Hover accent line */
+        .benefit-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background-color: #1A73E8;
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+            transform-origin: left;
+        }
+
+        .benefit-card:hover::after {
+            transform: scaleX(1);
+        }
+
+        /* Icon Styling */
+        .icon-box {
+            width: 72px;
+            height: 72px;
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 32px;
+            transition: all 0.3s ease;
+        }
+
+        /* Unique colors for each card's icon background */
+        .card-1 .icon-box { background-color: #E8F0FE; color: #1A73E8; } /* Blue */
+        .card-2 .icon-box { background-color: #E6F4EA; color: #1E8E3E; } /* Green */
+        .card-3 .icon-box { background-color: #FEF7E0; color: #F9AB00; } /* Yellow/Gold */
+        .card-4 .icon-box { background-color: #FCE8E6; color: #D93025; } /* Red */
+
+        /* Background Decoration */
+        .bg-circle {
+            position: absolute;
+            border-radius: 50%;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Decorative Background -->
+<div class="bg-circle" style="top: -100px; right: -100px; width: 500px; height: 500px; background-color: #E8F0FE; opacity: 0.6;"></div>
+<div class="bg-circle" style="bottom: -50px; left: -50px; width: 300px; height: 300px; background-color: #E2E8F0; opacity: 0.4;"></div>
+<!-- Header Section -->
+<div class="relative z-10 pt-10 px-16 text-center">
+<div class="inline-block mb-4">
+<p class="bg-blue-100 text-brand-blue px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase">
+                    Benefits
+                </p>
+</div>
+<h1 class="font-poppins font-bold text-4xl text-gray-900 leading-tight mb-3">
+                What You Get <span class="text-brand-blue">After Optimization</span>
+</h1>
+<p class="font-inter text-gray-500 text-lg max-w-2xl mx-auto">
+                Transform your Google Business Profile into a 24/7 customer generation machine.
+            </p>
+</div>
+<!-- Main Grid Content -->
+<div class="flex-1 px-20 py-8 relative z-10">
+<div class="grid grid-cols-2 gap-8 h-full pb-8">
+<!-- Card 1: Visibility -->
+<div class="benefit-card card-1 p-8">
+<div class="flex flex-col h-full">
+<div class="icon-box">
+<i class="fas fa-search-location"></i>
+</div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-3">More Google Visibility</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed">
+                            Dominate local search results. Appear right at the top when customers search for your services nearby.
+                        </p>
+</div>
+</div>
+<!-- Card 2: Calls -->
+<div class="benefit-card card-2 p-8">
+<div class="flex flex-col h-full">
+<div class="icon-box">
+<i class="fas fa-phone-volume"></i>
+</div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-3">More Customer Calls</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed">
+                            Stop waiting for the phone to ring. Optimized profiles drive direct calls from high-intent local customers.
+                        </p>
+</div>
+</div>
+<!-- Card 3: Walk-ins -->
+<div class="benefit-card card-3 p-8">
+<div class="flex flex-col h-full">
+<div class="icon-box">
+<i class="fas fa-walking"></i>
+</div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-3">More Walk-In Customers</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed">
+                            Convert online traffic into foot traffic. Help locals find your store easily with accurate maps directions.
+                        </p>
+</div>
+</div>
+<!-- Card 4: Reputation -->
+<div class="benefit-card card-4 p-8">
+<div class="flex flex-col h-full">
+<div class="icon-box">
+<i class="fas fa-award"></i>
+</div>
+<h3 class="font-poppins font-bold text-2xl text-gray-800 mb-3">Strong Online Reputation</h3>
+<p class="font-inter text-gray-600 text-lg leading-relaxed">
+                            Build trust instantly. A profile full of 5-star reviews makes you the obvious choice over competitors.
+                        </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Who We Help - GBP Advance India</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+
+        /* Typography */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+        .bg-brand-light { background-color: #E8F0FE; }
+        .border-brand-blue { border-color: #1A73E8; }
+        
+        /* Background Decorations */
+        .bg-shape-top {
+            position: absolute;
+            top: -150px;
+            right: -100px;
+            width: 600px;
+            height: 600px;
+            background-color: #F8FAFC;
+            border-radius: 50%;
+            z-index: 0;
+        }
+        
+        .bg-shape-bottom {
+            position: absolute;
+            bottom: -150px;
+            left: -100px;
+            width: 500px;
+            height: 500px;
+            background-color: #F1F5F9;
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        /* Grid Layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 24px;
+            width: 100%;
+            padding: 0 60px;
+            margin-top: 20px;
+            margin-bottom: 30px;
+            z-index: 10;
+        }
+
+        /* Business Card */
+        .business-card {
+            background: white;
+            border: 1px solid #E2E8F0;
+            border-radius: 16px;
+            padding: 24px 16px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .business-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: #BFDBFE;
+        }
+
+        .business-card:hover .icon-circle {
+            background-color: #1A73E8;
+            color: white;
+            transform: scale(1.1);
+        }
+
+        /* Icon Styling */
+        .icon-circle {
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background-color: #E8F0FE;
+            color: #1A73E8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 28px;
+            margin-bottom: 16px;
+            transition: all 0.3s ease;
+        }
+
+        /* Bottom Banner */
+        .bottom-banner {
+            background-color: #1A73E8;
+            margin: 0 60px;
+            border-radius: 12px;
+            padding: 16px 32px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            box-shadow: 0 10px 15px -3px rgba(26, 115, 232, 0.3);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-shape-top"></div>
+<div class="bg-shape-bottom"></div>
+<!-- Header -->
+<div class="pt-10 px-16 relative z-10 text-center mb-4">
+<div class="inline-block mb-3">
+<span class="bg-blue-100 text-brand-blue px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase font-inter">
+                    Target Audience
+                </span>
+</div>
+<h1 class="font-poppins font-bold text-4xl text-gray-900 leading-tight">
+                We Help All Types of <span class="text-brand-blue">Local Businesses</span>
+</h1>
+<p class="font-inter text-gray-500 text-lg mt-2 max-w-3xl mx-auto">
+                Whether you offer services or sell products, if you have a physical location or service area, we can help.
+            </p>
+</div>
+<!-- Icons Grid -->
+<div class="grid-container flex-1">
+<!-- Item 1: Salons -->
+<div class="business-card">
+<div class="icon-circle">
+<i class="fas fa-cut"></i>
+</div>
+<h3 class="font-poppins font-bold text-lg text-gray-800">Salons &amp; Spas</h3>
+<p class="font-inter text-sm text-gray-500 mt-1">Hair, beauty, massage</p>
+</div>
+<!-- Item 2: Dental -->
+<div class="business-card">
+<div class="icon-circle">
+<i class="fas fa-tooth"></i>
+</div>
+<h3 class="font-poppins font-bold text-lg text-gray-800">Dental Clinics</h3>
+<p class="font-inter text-sm text-gray-500 mt-1">Dentists, orthodontists</p>
+</div>
+<!-- Item 3: Restaurants -->
+<div class="business-card">
+<div class="icon-circle">
+<i class="fas fa-utensils"></i>
+</div>
+<h3 class="font-poppins font-bold text-lg text-gray-800">Restaurants</h3>
+<p class="font-inter text-sm text-gray-500 mt-1">Cafes, bars, dining</p>
+</div>
+<!-- Item 4: Gyms -->
+<div class="business-card">
+<div class="icon-circle">
+<i class="fas fa-dumbbell"></i>
+</div>
+<h3 class="font-poppins font-bold text-lg text-gray-800">Gyms &amp; Fitness</h3>
+<p class="font-inter text-sm text-gray-500 mt-1">Yoga, crossfit, trainers</p>
+</div>
+<!-- Item 5: Hotels -->
+<div class="business-card">
+<div class="icon-circle">
+<i class="fas fa-hotel"></i>
+</div>
+<h3 class="font-poppins font-bold text-lg text-gray-800">Hotels</h3>
+<p class="font-inter text-sm text-gray-500 mt-1">Resorts, guest houses</p>
+</div>
+<!-- Item 6: Coaching -->
+<div class="business-card">
+<div class="icon-circle">
+<i class="fas fa-book-reader"></i>
+</div>
+<h3 class="font-poppins font-bold text-lg text-gray-800">Coaching Centers</h3>
+<p class="font-inter text-sm text-gray-500 mt-1">Tuition, exam prep</p>
+</div>
+<!-- Item 7: Real Estate -->
+<div class="business-card">
+<div class="icon-circle">
+<i class="fas fa-home"></i>
+</div>
+<h3 class="font-poppins font-bold text-lg text-gray-800">Real Estate</h3>
+<p class="font-inter text-sm text-gray-500 mt-1">Agents, property dealers</p>
+</div>
+<!-- Item 8: Car Rentals -->
+<div class="business-card">
+<div class="icon-circle">
+<i class="fas fa-car"></i>
+</div>
+<h3 class="font-poppins font-bold text-lg text-gray-800">Car Rentals</h3>
+<p class="font-inter text-sm text-gray-500 mt-1">Taxi services, leasing</p>
+</div>
+</div>
+<!-- Bottom Text -->
+<div class="bottom-banner mb-10">
+<div class="flex items-center">
+<div class="w-10 h-10 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-4">
+<i class="fas fa-info text-white"></i>
+</div>
+<p class="font-poppins font-medium text-lg">
+                    If you have a local business, we can help you grow on Google Maps.
+                </p>
+</div>
+<div class="flex items-center">
+<i class="fas fa-check-circle mr-2 text-green-300"></i>
+<span class="font-inter font-bold">Proven Strategy</span>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pricing Plans - GBP Advance India</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #F8FAFC;
+            overflow: hidden;
+        }
+        
+        /* Typography */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+        
+        /* Background Decorations */
+        .bg-circle {
+            position: absolute;
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        /* Pricing Grid */
+        .pricing-container {
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Center vertically in the container */
+            gap: 24px;
+            padding: 0 40px;
+            flex: 1;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 10;
+        }
+
+        /* Card Base Styles */
+        .pricing-card {
+            background: white;
+            border-radius: 16px;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            width: 320px;
+            height: 480px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid #E2E8F0;
+        }
+
+        .card-header {
+            padding: 30px 24px 20px;
+            text-align: center;
+            border-bottom: 1px solid #F1F5F9;
+        }
+
+        .card-body {
+            padding: 24px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .features-list {
+            margin-bottom: auto; /* Pushes button to bottom */
+        }
+
+        .feature-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+        }
+
+        .feature-item:last-child {
+            margin-bottom: 0;
+        }
+
+        .check-icon {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 12px;
+            flex-shrink: 0;
+            font-size: 10px;
+        }
+
+        .cta-button {
+            display: block;
+            width: 100%;
+            padding: 12px;
+            border-radius: 8px;
+            text-align: center;
+            font-weight: 600;
+            font-family: 'Poppins', sans-serif;
+            transition: all 0.2s;
+            margin-top: 20px;
+        }
+
+        /* Tiers Specifics */
+        /* Starter */
+        .card-starter {
+            border-top: 6px solid #93C5FD; /* Light Blue */
+        }
+        .card-starter .plan-name { color: #64748B; }
+        .card-starter .check-icon { background-color: #E0F2FE; color: #0EA5E9; }
+        .card-starter .cta-button { background-color: #F1F5F9; color: #475569; }
+
+        /* Growth (Popular) */
+        .card-growth {
+            transform: scale(1.08);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+            border: 2px solid #1A73E8;
+            z-index: 20;
+            height: 500px; /* Slightly taller */
+        }
+        .card-growth .card-header {
+            background-color: #1A73E8;
+            color: white;
+            border-radius: 12px 12px 0 0;
+            padding-top: 40px; /* Space for badge */
+        }
+        .card-growth .plan-name { color: white; }
+        .card-growth .plan-desc { color: #BFDBFE; }
+        .card-growth .check-icon { background-color: #E8F0FE; color: #1A73E8; }
+        .card-growth .cta-button { background-color: #1A73E8; color: white; }
+        
+        .popular-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: #F9AB00;
+            color: #78350F;
+            padding: 6px 16px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 12px;
+            text-transform: uppercase;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            font-family: 'Inter', sans-serif;
+            white-space: nowrap;
+        }
+
+        /* Premium */
+        .card-premium {
+            border-top: 6px solid #F59E0B; /* Orange/Gold */
+        }
+        .card-premium .plan-name { color: #D97706; }
+        .card-premium .check-icon { background-color: #FEF3C7; color: #D97706; }
+        .card-premium .cta-button { background-color: #FFFBEB; color: #D97706; border: 1px solid #FCD34D; }
+
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-circle" style="top: -150px; right: -50px; width: 600px; height: 600px; background-color: #E8F0FE; opacity: 0.7;"></div>
+<div class="bg-circle" style="bottom: -100px; left: -100px; width: 400px; height: 400px; background-color: #F1F5F9; opacity: 0.5;"></div>
+<!-- Header -->
+<div class="relative z-10 pt-8 px-16 text-center">
+<div class="inline-block mb-2">
+<span class="bg-blue-100 text-brand-blue px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase" style="color: #1A73E8;">
+                Plans &amp; Pricing
+            </span>
+</div>
+<h1 class="font-poppins font-bold text-4xl text-gray-900 leading-tight mb-2">
+            Simple, Transparent <span style="color: #1A73E8;">Plans</span>
+</h1>
+<p class="font-inter text-gray-500 text-lg max-w-2xl mx-auto">
+            Choose the package that fits your business goals. No hidden fees.
+        </p>
+</div>
+<!-- Pricing Cards -->
+<div class="pricing-container">
+<!-- STARTER PLAN -->
+<div class="pricing-card card-starter">
+<div class="card-header">
+<h3 class="font-poppins font-bold text-2xl mb-1 plan-name">STARTER</h3>
+<p class="font-inter text-sm text-gray-400">Essential visibility</p>
+</div>
+<div class="card-body">
+<div class="features-list">
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">GBP Setup &amp; Audit</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">Profile Optimization</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">Basic Support</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">Monthly Performance Report</p>
+</div>
+</div>
+<div class="mt-auto pt-4 text-center">
+<p class="font-inter text-xs text-gray-400 mb-2">Ideal for new businesses</p>
+<a class="cta-button" href="#">Contact for Price</a>
+</div>
+</div>
+</div>
+<!-- GROWTH PLAN (Most Popular) -->
+<div class="pricing-card card-growth">
+<div class="popular-badge"><i class="fas fa-star mr-1"></i> Most Popular</div>
+<div class="card-header">
+<h3 class="font-poppins font-bold text-2xl mb-1 plan-name">GROWTH</h3>
+<p class="font-inter text-sm opacity-90 plan-desc">Accelerated results</p>
+</div>
+<div class="card-body">
+<div class="features-list">
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-800 font-medium">Everything in Starter</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-800 font-medium">Google Maps Ranking</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-800 font-medium">Review Strategy</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-800 font-medium">Competitor Analysis</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-800 font-medium">Detailed Reporting</p>
+</div>
+</div>
+<div class="mt-auto pt-4 text-center">
+<p class="font-inter text-xs text-blue-200 mb-2 opacity-80">Best value for established businesses</p>
+<a class="cta-button hover:bg-blue-700" href="#">Contact for Price</a>
+</div>
+</div>
+</div>
+<!-- PREMIUM PLAN -->
+<div class="pricing-card card-premium">
+<div class="card-header">
+<h3 class="font-poppins font-bold text-2xl mb-1 plan-name">PREMIUM</h3>
+<p class="font-inter text-sm text-gray-400">Maximum dominance</p>
+</div>
+<div class="card-body">
+<div class="features-list">
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">Everything in Growth</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">Full Local SEO</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">Priority Support</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">Custom Strategy</p>
+</div>
+<div class="feature-item">
+<div class="check-icon"><i class="fas fa-check"></i></div>
+<p class="font-inter text-sm text-gray-600">Website Optimization</p>
+</div>
+</div>
+<div class="mt-auto pt-4 text-center">
+<p class="font-inter text-xs text-gray-400 mb-2">For aggressive growth</p>
+<a class="cta-button" href="#">Contact for Price</a>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom CTA -->
+<div class="text-center pb-10 relative z-10">
+<div class="inline-flex items-center bg-white px-6 py-3 rounded-full shadow-sm border border-gray-100">
+<i class="fas fa-gift text-pink-500 mr-3 text-lg"></i>
+<p class="font-inter text-gray-600 font-medium mr-4">
+                Not sure which plan is right for you?
+            </p>
+<p class="font-poppins font-bold text-brand-blue cursor-pointer hover:underline" style="color: #1A73E8;">
+                Get a FREE Audit First <i class="fas fa-arrow-right ml-1 text-sm"></i>
+</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Free Audit Offer</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #F8FAFC;
+            overflow: hidden;
+        }
+
+        /* Typography */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+
+        /* Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+        .bg-brand-dark { background-color: #0D47A1; }
+        .text-brand-accent { color: #F9AB00; }
+        .bg-brand-accent { background-color: #F9AB00; }
+
+        /* Background Shapes */
+        .bg-shape-blob {
+            position: absolute;
+            background-color: #E8F0FE;
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        /* Main Offer Layout */
+        .offer-container {
+            display: flex;
+            width: 100%;
+            height: 100%;
+            padding: 60px 80px;
+            z-index: 10;
+            gap: 60px;
+            align-items: center;
+        }
+
+        /* Left Side: Copy */
+        .offer-copy {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .checklist-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 16px 24px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            border-left: 6px solid #34A853; /* Google Green */
+            transition: transform 0.2s ease;
+        }
+
+        .checklist-item:hover {
+            transform: translateX(10px);
+        }
+
+        .check-circle {
+            width: 32px;
+            height: 32px;
+            background-color: #E6F4EA;
+            color: #34A853;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+            flex-shrink: 0;
+            font-size: 14px;
+        }
+
+        /* Right Side: Visual Card */
+        .offer-card {
+            flex: 0 0 480px;
+            background-color: #1A73E8;
+            border-radius: 24px;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 25px 50px -12px rgba(26, 115, 232, 0.4);
+            color: white;
+            overflow: hidden;
+        }
+
+        /* Diagonal Ribbon */
+        .ribbon {
+            position: absolute;
+            top: 40px;
+            right: -40px;
+            background-color: #F9AB00;
+            color: #78350F;
+            transform: rotate(45deg);
+            padding: 8px 60px;
+            font-weight: 800;
+            font-family: 'Poppins', sans-serif;
+            font-size: 14px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+            z-index: 20;
+        }
+
+        .gift-icon-container {
+            width: 100px;
+            height: 100px;
+            background-color: rgba(255, 255, 255, 0.15);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 48px;
+            color: #F9AB00;
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.4); }
+            70% { box-shadow: 0 0 0 20px rgba(255, 255, 255, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(255, 255, 255, 0); }
+        }
+
+        .cta-btn {
+            background-color: #F9AB00;
+            color: #000;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 20px;
+            padding: 18px 40px;
+            border-radius: 50px;
+            width: 100%;
+            text-transform: uppercase;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: 2px solid #fff;
+            margin-top: 24px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.3);
+        }
+
+        .value-strike {
+            text-decoration: line-through;
+            color: rgba(255, 255, 255, 0.6);
+            margin-right: 12px;
+        }
+
+        .price-free {
+            color: #fff;
+            font-weight: 800;
+            font-size: 48px;
+            line-height: 1;
+        }
+
+        .dots-pattern {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            width: 100px;
+            height: 100px;
+            background-image: radial-gradient(rgba(255,255,255,0.2) 2px, transparent 2px);
+            background-size: 10px 10px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-shape-blob" style="top: -200px; left: -100px; width: 600px; height: 600px;"></div>
+<div class="bg-shape-blob" style="bottom: -150px; right: -50px; width: 500px; height: 500px; background-color: #FFF8E1;"></div>
+<!-- Main Content -->
+<div class="offer-container">
+<!-- LEFT: Persuasive Copy -->
+<div class="offer-copy">
+<div class="mb-2">
+<span class="bg-blue-100 text-brand-blue px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase">
+                        Limited Time Offer
+                    </span>
+</div>
+<h1 class="font-poppins font-bold text-5xl text-gray-900 leading-tight mb-4">
+                    Get Your <span class="text-brand-blue">FREE</span> Google Business Profile Audit
+                </h1>
+<p class="font-inter text-gray-500 text-lg mb-8 max-w-xl">
+                    Stop guessing why you aren't ranking. Our experts will analyze your listing and show you exactly how to fix it.
+                </p>
+<!-- Checklist -->
+<div class="w-full max-w-lg">
+<div class="checklist-item">
+<div class="check-circle"><i class="fas fa-check"></i></div>
+<div>
+<p class="font-poppins font-bold text-gray-800 text-lg">Profile Completeness Check</p>
+<p class="font-inter text-sm text-gray-500">Identify missing fields hurting your rank</p>
+</div>
+</div>
+<div class="checklist-item">
+<div class="check-circle"><i class="fas fa-check"></i></div>
+<div>
+<p class="font-poppins font-bold text-gray-800 text-lg">Ranking Analysis</p>
+<p class="font-inter text-sm text-gray-500">See exactly where you stand on the map</p>
+</div>
+</div>
+<div class="checklist-item">
+<div class="check-circle"><i class="fas fa-check"></i></div>
+<div>
+<p class="font-poppins font-bold text-gray-800 text-lg">Competitor Comparison</p>
+<p class="font-inter text-sm text-gray-500">Spy on what top rankers are doing right</p>
+</div>
+</div>
+<div class="checklist-item">
+<div class="check-circle"><i class="fas fa-check"></i></div>
+<div>
+<p class="font-poppins font-bold text-gray-800 text-lg">Personalized Action Plan</p>
+<p class="font-inter text-sm text-gray-500">Step-by-step guide to more customers</p>
+</div>
+</div>
+</div>
+</div>
+<!-- RIGHT: The Offer Card -->
+<div class="offer-card">
+<div class="ribbon">LIMITED SPOTS</div>
+<div class="dots-pattern"></div>
+<div class="gift-icon-container">
+<i class="fas fa-file-contract"></i>
+</div>
+<h2 class="font-poppins font-bold text-3xl mb-2">GBP Audit Report</h2>
+<p class="font-inter text-blue-200 mb-6 text-sm">Comprehensive analysis valued at ₹5,000</p>
+<div class="bg-white bg-opacity-10 rounded-xl p-4 w-full mb-6 border border-white border-opacity-20">
+<p class="font-inter text-sm text-blue-100 uppercase tracking-widest mb-1">YOUR PRICE</p>
+<div class="flex items-center justify-center">
+<span class="font-poppins text-2xl value-strike">₹5,000</span>
+<span class="font-poppins price-free text-brand-accent">FREE</span>
+</div>
+</div>
+<a class="cta-btn" href="#">
+                    Claim Audit Now <i class="fas fa-arrow-right ml-3"></i>
+</a>
+<div class="mt-6 flex items-center justify-center text-xs text-blue-100 opacity-80 font-inter">
+<i class="fas fa-shield-alt mr-2"></i>
+<span>No Obligation • 100% Secure • No Credit Card</span>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Why Choose Us - GBP Advance India</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #f8fafc;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #F8FAFC;
+            overflow: hidden;
+        }
+
+        /* Typography */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+
+        /* Colors */
+        .text-brand-blue { color: #1A73E8; }
+        .bg-brand-blue { background-color: #1A73E8; }
+
+        /* Background Shapes */
+        .bg-shape {
+            position: absolute;
+            border-radius: 50%;
+            z-index: 0;
+        }
+
+        /* Card Styles */
+        .trust-card {
+            background: white;
+            border-radius: 20px;
+            padding: 32px 24px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            height: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .trust-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            border-color: #BFDBFE;
+        }
+
+        .trust-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background-color: transparent;
+            transition: background-color 0.3s ease;
+        }
+
+        .trust-card:hover::before {
+            background-color: #1A73E8;
+        }
+
+        /* Icon Styling */
+        .icon-wrapper {
+            width: 80px;
+            height: 80px;
+            border-radius: 24px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            font-size: 32px;
+            transition: all 0.3s ease;
+        }
+
+        /* Specific colors for visual variety */
+        .card-1 .icon-wrapper { background-color: #E8F0FE; color: #1A73E8; }
+        .card-2 .icon-wrapper { background-color: #FEF3C7; color: #D97706; }
+        .card-3 .icon-wrapper { background-color: #E6F4EA; color: #1E8E3E; }
+        .card-4 .icon-wrapper { background-color: #F3E8FF; color: #9333EA; }
+
+        /* Bottom Quote Box */
+        .quote-container {
+            margin-top: auto;
+            margin-bottom: 40px;
+            padding: 0 60px;
+            z-index: 10;
+        }
+
+        .quote-box {
+            background-color: #1A73E8;
+            border-radius: 16px;
+            padding: 24px 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            box-shadow: 0 10px 15px -3px rgba(26, 115, 232, 0.3);
+            overflow: hidden;
+        }
+
+        .quote-mark {
+            font-family: serif;
+            font-size: 100px;
+            color: rgba(255, 255, 255, 0.1);
+            position: absolute;
+            top: -20px;
+            left: 20px;
+            line-height: 1;
+        }
+
+        .pattern-dots {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 100px;
+            height: 100%;
+            opacity: 0.1;
+            background-image: radial-gradient(#fff 2px, transparent 2px); /* Fallback if gradient allowed, else use solid color overlay tricks or SVG */
+            /* Since gradients are discouraged, we use a simple overlay or accept basic CSS background for patterns if critical, but sticking to solid shapes is safer. */
+            background-color: rgba(255,255,255,0.05); 
+        }
+
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-shape" style="top: -100px; right: -100px; width: 400px; height: 400px; background-color: #E0F2FE; opacity: 0.6;"></div>
+<div class="bg-shape" style="bottom: 80px; left: -50px; width: 300px; height: 300px; background-color: #F1F5F9;"></div>
+<!-- Header -->
+<div class="relative z-10 pt-10 px-16 text-center mb-8">
+<div class="inline-block mb-3">
+<p class="bg-blue-100 text-brand-blue px-4 py-1.5 rounded-full text-sm font-bold tracking-wider uppercase font-inter">
+                    Why Choose Us
+                </p>
+</div>
+<h1 class="font-poppins font-bold text-4xl text-gray-900 leading-tight">
+                Why Local Businesses Trust <span class="text-brand-blue">GBP Advance India</span>
+</h1>
+<p class="font-inter text-gray-500 text-lg mt-3 max-w-2xl mx-auto">
+                We combine technical expertise with deep local market understanding to deliver real, measurable growth.
+            </p>
+</div>
+<!-- Trust Pillars Grid -->
+<div class="flex-1 px-16 relative z-10">
+<div class="grid grid-cols-4 gap-6 h-full pb-8">
+<!-- Card 1 -->
+<div class="trust-card card-1">
+<div class="icon-wrapper">
+<i class="fas fa-map-marked-alt"></i>
+</div>
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-3">Google Maps Specialists</h3>
+<p class="font-inter text-sm text-gray-600 leading-relaxed">
+                        We don't do generic SEO. We focus 100% on local visibility and ranking you in the "Map Pack".
+                    </p>
+</div>
+<!-- Card 2 -->
+<div class="trust-card card-2">
+<div class="icon-wrapper">
+<i class="fas fa-bolt"></i>
+</div>
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-3">Fast Results</h3>
+<p class="font-inter text-sm text-gray-600 leading-relaxed">
+                        Our optimization techniques start showing measurable improvements in calls and views within just 30 days.
+                    </p>
+</div>
+<!-- Card 3 -->
+<div class="trust-card card-3">
+<div class="icon-wrapper">
+<i class="fas fa-clipboard-check"></i>
+</div>
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-3">Transparent Process</h3>
+<p class="font-inter text-sm text-gray-600 leading-relaxed">
+                        No black box magic. You see exactly what we do, with clear monthly reports on your growth.
+                    </p>
+</div>
+<!-- Card 4 -->
+<div class="trust-card card-4">
+<div class="icon-wrapper">
+<i class="fas fa-chart-line"></i>
+</div>
+<h3 class="font-poppins font-bold text-xl text-gray-800 mb-3">Proven Strategy</h3>
+<p class="font-inter text-sm text-gray-600 leading-relaxed">
+                        Tested and refined across hundreds of local businesses in various industries across India.
+                    </p>
+</div>
+</div>
+</div>
+<!-- Bottom Quote -->
+<div class="quote-container">
+<div class="quote-box">
+<span class="quote-mark">“</span>
+<p class="font-poppins font-semibold text-2xl text-white relative z-10 italic tracking-wide">
+                    We don't just optimize profiles — we help businesses grow.
+                </p>
+<div class="pattern-dots"></div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Contact GBP Advance India</title>
+<link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #1A73E8;
+            font-family: 'Inter', sans-serif;
+            overflow: hidden;
+        }
+        
+        .slide-container {
+            width: 1280px;
+            height: 720px;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            background-color: #1A73E8;
+            overflow: hidden;
+            color: white;
+        }
+
+        /* Typography */
+        .font-poppins { font-family: 'Poppins', sans-serif; }
+        .font-inter { font-family: 'Inter', sans-serif; }
+
+        /* Background Graphics */
+        .bg-circle {
+            position: absolute;
+            border-radius: 50%;
+            z-index: 0;
+            opacity: 0.1;
+            background-color: white;
+        }
+        
+        .bg-map-dots {
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 600px;
+            height: 720px;
+            background-image: radial-gradient(rgba(255,255,255,0.15) 2px, transparent 2px);
+            background-size: 24px 24px;
+            z-index: 0;
+            mask-image: linear-gradient(to left, black, transparent);
+            -webkit-mask-image: linear-gradient(to left, black, transparent);
+        }
+
+        /* Layout Grid */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            padding: 80px 100px;
+            height: 100%;
+            position: relative;
+            z-index: 10;
+            align-items: center;
+        }
+
+        /* Left Side: Text */
+        .left-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .subtitle-pill {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 8px 20px;
+            border-radius: 50px;
+            display: inline-block;
+            margin-bottom: 24px;
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            font-size: 14px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            width: fit-content;
+        }
+
+        /* Right Side: Contact Card */
+        .contact-card {
+            background-color: white;
+            border-radius: 24px;
+            padding: 48px;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+            color: #1e293b;
+            position: relative;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 24px;
+            padding: 16px;
+            border-radius: 12px;
+            transition: background-color 0.2s;
+            border: 1px solid #f1f5f9;
+        }
+
+        .contact-item:hover {
+            background-color: #f8fafc;
+            border-color: #e2e8f0;
+        }
+
+        .contact-icon {
+            width: 48px;
+            height: 48px;
+            border-radius: 12px;
+            background-color: #E8F0FE;
+            color: #1A73E8;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin-right: 20px;
+            flex-shrink: 0;
+        }
+
+        .contact-label {
+            font-size: 12px;
+            color: #64748b;
+            text-transform: uppercase;
+            font-weight: 600;
+            margin-bottom: 2px;
+            letter-spacing: 0.5px;
+        }
+
+        .contact-value {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1e293b;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        /* CTA Button */
+        .cta-btn {
+            background-color: #F9AB00;
+            color: #78350F;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
+            padding: 20px 40px;
+            border-radius: 12px;
+            width: 100%;
+            text-align: center;
+            display: block;
+            margin-top: 32px;
+            box-shadow: 0 10px 15px -3px rgba(249, 171, 0, 0.3);
+            transition: transform 0.2s, box-shadow 0.2s;
+            border: none;
+            cursor: pointer;
+            text-decoration: none;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .cta-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 25px -5px rgba(249, 171, 0, 0.4);
+            background-color: #fbbf24;
+        }
+
+        .cta-btn::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            transition: 0.5s;
+        }
+        
+        .cta-btn:hover::after {
+            left: 100%;
+        }
+
+        /* Map Pin Graphic */
+        .map-pin-graphic {
+            position: absolute;
+            bottom: -50px;
+            left: -50px;
+            font-size: 300px;
+            color: rgba(255, 255, 255, 0.05);
+            z-index: 0;
+            transform: rotate(-15deg);
+        }
+
+    </style>
+</head>
+<body>
+<div class="slide-container">
+<!-- Background Elements -->
+<div class="bg-circle" style="top: -100px; right: -100px; width: 500px; height: 500px;"></div>
+<div class="bg-circle" style="bottom: -150px; left: 100px; width: 300px; height: 300px;"></div>
+<div class="bg-map-dots"></div>
+<div class="map-pin-graphic">
+<i class="fas fa-map-marker-alt"></i>
+</div>
+<!-- Main Content Grid -->
+<div class="content-grid">
+<!-- Left Side: Header & Subtext -->
+<div class="left-content">
+<div>
+<span class="subtitle-pill font-inter">
+                        Ready to Rank #1?
+                    </span>
+</div>
+<h1 class="font-poppins font-bold text-6xl leading-tight mb-6">
+                    Let's Grow Your<br/>
+<span style="color: #93C5FD;">Business Together</span>
+</h1>
+<p class="font-inter text-blue-100 text-xl leading-relaxed mb-8 max-w-lg">
+                    Don't let competitors take your customers. Optimize your Google Business Profile and start getting more calls today.
+                </p>
+<div class="flex items-center space-x-6">
+<div class="flex -space-x-4">
+<img alt="Client" class="w-12 h-12 rounded-full border-2 border-blue-600" src="https://page.gensparksite.com/slides_images/a4804484e8d7be39c2f1a68d8b42829f.svg"/>
+<img alt="Client" class="w-12 h-12 rounded-full border-2 border-blue-600" src="https://page.gensparksite.com/slides_images/f3708032b2c8b79317c7a5145faaad3c.svg"/>
+<img alt="Client" class="w-12 h-12 rounded-full border-2 border-blue-600" src="https://page.gensparksite.com/slides_images/6b9aa462738ab47c1bcc94780e450e2c.png"/>
+<div class="w-12 h-12 rounded-full border-2 border-blue-600 bg-white text-blue-600 flex items-center justify-center font-bold text-xs shadow-lg">
+                            +500
+                        </div>
+</div>
+<p class="font-inter font-medium text-blue-100">Trusted by local businesses</p>
+</div>
+</div>
+<!-- Right Side: Contact Card -->
+<div class="contact-card">
+<div class="contact-item">
+<div class="contact-icon">
+<i class="fas fa-phone-alt"></i>
+</div>
+<div>
+<p class="contact-label">Call Us Directly</p>
+<p class="contact-value">+91 7897035566</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon" style="background-color: #DCFCE7; color: #166534;">
+<i class="fab fa-whatsapp"></i>
+</div>
+<div>
+<p class="contact-label">WhatsApp Support</p>
+<p class="contact-value">+91 98765 43210</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon" style="background-color: #FCE7F3; color: #BE185D;">
+<i class="fab fa-instagram"></i>
+</div>
+<div>
+<p class="contact-label">Follow On Instagram</p>
+<p class="contact-value">@gbpadvanceindia</p>
+</div>
+</div>
+<div class="contact-item">
+<div class="contact-icon" style="background-color: #F1F5F9; color: #475569;">
+<i class="fas fa-globe"></i>
+</div>
+<div>
+<p class="contact-label">Visit Website</p>
+<p class="contact-value">www.gbpadvance.in</p>
+</div>
+</div>
+<a class="cta-btn" href="#">
+                    BOOK YOUR FREE AUDIT <i class="fas fa-arrow-right ml-2"></i>
+</a>
+</div>
+</div>
+<!-- Footer Bar -->
+<div class="absolute bottom-0 w-full py-4 bg-black bg-opacity-10 text-center text-white text-opacity-60 font-inter text-sm">
+<p>© 2026 GBP Advance India. All Rights Reserved. | Helping Local Businesses Win on Google Maps.</p>
+</div>
+</div>
+</body>
+</html>
